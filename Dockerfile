@@ -10,3 +10,5 @@ COPY . /Desktop/techworld-js-docker-demo-app-master/app
 WORKDIR /Desktop/techworld-js-docker-demo-app-master/app
 
 CMD ["node","server.js"]
+
+EXPOSE 3000
